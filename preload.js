@@ -9,5 +9,6 @@ function listarLivros() {
 }
 
 contextBridge.exposeInMainWorld('api', {
-    salvarFeedback
+    salvarLivro,
+    listarLivros
 });
